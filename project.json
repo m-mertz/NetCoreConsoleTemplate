@@ -4,9 +4,12 @@
 		"emitEntryPoint": true
 	},
 
-	"dependencies": {
-		"NETStandard.Library": "1.0.0-rc2-23517"
-	},
+    "dependencies": {
+        "Autofac.Extensions.DependencyInjection": "4.0.0-rc1-177",
+        "NETStandard.Library": "1.0.0-rc2-23517",
+        "Serilog.Extensions.Logging": "1.0.0-rc1-final-10092",
+        "Serilog.Sinks.Literate": "2.0.0-beta-21"
+    },
 
 	"frameworks": {
 		"dnxcore50": { }
