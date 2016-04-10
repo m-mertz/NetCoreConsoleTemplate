@@ -1,6 +1,8 @@
-﻿using Xunit;
+﻿using Test;
+using Xunit;
+using Assert = Xunit.Assert;
 
-namespace Test.UnitTests
+namespace UnitTests.Test
 {
 	public class SomeServiceUnitTests
 	{

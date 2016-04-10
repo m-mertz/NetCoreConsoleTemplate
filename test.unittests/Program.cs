@@ -1,4 +1,4 @@
-﻿namespace Test.UnitTests
+﻿namespace UnitTests.Test
 {
 	public class Program
 	{
