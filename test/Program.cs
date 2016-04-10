@@ -46,6 +46,11 @@ namespace Test
 	}
 
 
+	/// <summary>
+	/// This class represents the entry point into the actual functionality of the console
+	/// application. It will be instantiated with DI to enable automatic injection into this and all
+	/// referenced classes.
+	/// </summary>
 	public class Main
 	{
 		public Main(ISomeService someService, IOutput output)
@@ -70,6 +75,9 @@ namespace Test
 		private readonly IOutput m_output;
 	}
 
+
+	// The following are all dummy interfaces and implementations to demonstrate DI functionality,
+	// can be removed when populating this template with actual functionality.
 
 	public interface IOutput
 	{
